@@ -14,8 +14,9 @@ export class AppComponent  {
   constructor(private myServices: MyServices){
 
     this.datas$ =  this.myServices.sayHello();
-    this.myServices.sayHello().subscribe((data)=>{
-      console.log(data);
-    });
+    // Old
+    // this.myServices.sayHello().subscribe((data)=>{
+    //   console.log(data);
+    // });
   }
 }
