@@ -7,6 +7,6 @@ export class MyServices {
 
   sayHello() {
     //alert("Hello");
-    return of([1, 2, 3]);
+    return of([1, 2, 3, 4]);
   }
 }
